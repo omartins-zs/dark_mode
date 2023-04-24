@@ -1,3 +1,7 @@
 Projetos de Dark mode
 
 Exemplo Toggle Button: CSS & Javascript Toggle Button | Dark and Light Mode - Video : https://www.youtube.com/watch?v=gzCUq_VQ7Y8
+
+
+
+Dark Mode com CSS: o jeito mais fácil: https://desenvolvimentoparaweb.com/css/dark-mode-css-facil/
