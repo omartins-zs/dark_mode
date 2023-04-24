@@ -1,37 +1,27 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+    --body-bg: #fafafa;
+    --body-color: #555;
+    --link-color: #222;
+    --link-color-hover: #ec5840;
+    font-family: 'Nunito', sans-serif;
+}
+
+.dark-mode:root {
+    --body-bg: #212529;
+    --body-color: #899095;
+    --link-color: #dee2e6;
+    --link-color-hover: #3cc368;
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    padding: 10px;
-
-    background-color: #FAFAFA;
-    color: #555;
+    background-color: var(--body-bg);
+    color: var(--body-color);
 }
 
 a {
-    color: #222;
+    color: var(--link-color);
 }
 
 a:hover {
-    color: #EC5840;
-}
-
-/* Tema escuro */
-
-body.dark-mode {
-    background-color: #212529;
-    color: #899095;
-}
-
-.dark-mode a {
-    color: #DEE2E6;
-}
-
-.dark-mode a:hover {
-    color: #3CC368;
+    color: var(--link-color-hover);
 }
