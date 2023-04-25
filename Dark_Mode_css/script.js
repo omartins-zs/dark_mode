@@ -1,5 +1,5 @@
 const btn = document.querySelector('.btn');
-const container = docuemnt.querySelector('.container');
+const container = document.querySelector('.container');
 
 btn.onclick = function(){
     this.classList.toggle('active')
