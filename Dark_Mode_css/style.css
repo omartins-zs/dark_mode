@@ -10,6 +10,11 @@
     width: 100%;
     height: 100vh;
     background: #123;
+    transition: background .5s;
+}
+
+.container.active {
+    background: #000;
 }
 
 .btn {
@@ -31,4 +36,9 @@
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
+    transition: left .5s;
+}
+
+.btn.active::before {
+    left: 115px;
 }
